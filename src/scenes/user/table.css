@@ -81,8 +81,9 @@ form{
     font-size: 15px;
 }
 .editinput{
-    border: 3px solid red;
-    width:50px;
+    border: 0.5px  solid grey;
+    margin-right: 2px;
+    width:95%;
 }
 @media screen and (max-width:800px) {
     .mainbox{

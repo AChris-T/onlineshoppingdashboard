@@ -61,7 +61,7 @@
 .barprofile span{
     color: rgb(100, 99, 99);
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9rem;
     letter-spacing: 0.3px;
 }
 .list{

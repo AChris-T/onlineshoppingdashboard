@@ -95,7 +95,7 @@ const Table = () => {
         <div className="users">
           <div className='usercontainer'>
             <h3>User</h3>
-            <a href='/' className='addbtn'>Add User</a>
+            <a href='#' className='addbtn'>Add User</a>
           </div>
           <form onSubmit={handleAddFormSubmit} className='addForm'>
             <div className="formInputs">
