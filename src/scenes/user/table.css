@@ -133,3 +133,28 @@ form{
         overflow-x: scroll;
     }
 }
+@media screen and (max-width:490px) {
+    .formInputs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mainbox{
+        width: auto;
+    }
+    .boxform{
+        width: 400px;
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width:440px) {
+    .boxform{
+        width: 350px;
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width:390px) {
+    .boxform{
+        width: 300px;
+        overflow-x: scroll;
+    }
+}
