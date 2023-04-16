@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "fullName":"AKinfenwa Taiwo",
+        "phoneNumber":"08023360971",
+        "email":"taiwoakinfenwa2019@gmail.com",
+        "address":"Ibadan"
+    },
+    {
+        "id":2,
+        "fullName":"Ayorinde Isaac",
+        "phoneNumber":"09129787155",
+        "email":"isaac003@gmail.com",
+        "address":"Ibadan"
+    },
+    {
+        "id":3,
+        "fullName":"AKinfenwa Daniel",
+        "phoneNumber":"08023360971",
+        "email":"danialakin@gmail.com",
+        "address":"Ibadan"
+    },
+    {
+        "id":4,
+        "fullName":"AKinfenwa micheal",
+        "phoneNumber":"08023360971",
+        "email":"meachealakin@gmail.com",
+        "address":"Ibadan"
+    }
+]
