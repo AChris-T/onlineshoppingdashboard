@@ -43,7 +43,8 @@ th,td{
     font-size: 15px;
 }
 th{
-    background-color: aqua;
+    background-color: rgb(18, 42, 179);
+    color: #ffffff;
 }
 td{
     background-color: transparent;
@@ -52,13 +53,14 @@ td{
     display: flex;
     align-items: center;
     width: 100px;
-    height:45px;
+    height:40px;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(77, 77, 201);
     color: white;
     font-size: 15px;
     border-radius: 6px;
     border: none;
+    cursor:pointer;
     text-decoration: none;
 }
 
