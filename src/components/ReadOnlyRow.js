@@ -9,7 +9,7 @@ const ReadOnlyRow = ({ contact,handleEditClick}) => {
     <td>{contact.phoneNumber}</td>
     <td>{contact.address}</td>
     <td>
-       <button type='button' onClick={(event)=> handleEditClick(event, contact)}>
+       <button type='button' onClick={(event)=> handleEditClick(event, contact)} className='editicons'>
          <CiMenuKebab/>
         </button>
     </td>

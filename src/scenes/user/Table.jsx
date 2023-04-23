@@ -89,14 +89,16 @@ const Table = () => {
       email:contact.email
     }
     setEditFormData(formValues)
+  };
+  const handleCancelClick = () => {
+    setEditContactId(null)
   }
   return (
     <div className='tablecontainer'>
         <div className="users">
           <div className='usercontainer'>
-            <h3>User</h3>
-            <a href='#' className='addbtn'>Add User</a>
-          </div>
+            <h3>User</h3> 
+          </div> 
           <form onSubmit={handleAddFormSubmit} className='addForm'>
             <div className="formInputs">
             <input type="text"
@@ -148,7 +150,10 @@ const Table = () => {
             {contacts.map((contact)=>(
               <Fragment> 
                 {editContactId === contact.id ?
-                  (<EditableRow editFormData={editFormData} handleEditFormChange={handleEditFormChange}/>) 
+                  (<EditableRow editFormData={editFormData}  
+                    handleEditFormChange={handleEditFormChange}
+                    handleCancelClick= {handleCancelClick}
+                    />) 
                 : (<ReadOnlyRow contact={contact} 
                   handleEditClick={handleEditClick}
                   />)}

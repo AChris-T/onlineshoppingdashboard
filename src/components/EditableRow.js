@@ -1,13 +1,14 @@
 import React from 'react'
 import {HiOutlineSaveAs} from "react-icons/hi"
+import {MdDelete} from 'react-icons/md'
 
-const EditableRow = ({editFormData, handleEditFormChange}) => {
+const EditableRow = ({editFormData, handleEditFormChange, handleCancelClick}) => {
   return (
    <tr>
     <td>
         <input type="text"
             className='editinput'
-            required="required"
+            required="required" 
             placeholder='Enter your Name'
             name='fullName'
             value={editFormData.fullName}
@@ -45,7 +46,12 @@ const EditableRow = ({editFormData, handleEditFormChange}) => {
         /> 
     </td>
     <td>
-        <button type='submit' className='editicons'><HiOutlineSaveAs/></button>
+        <button type='submit' className='editicons'>
+            <HiOutlineSaveAs/> 
+        </button>   
+        <button type='submit' className='editicons' style={{color:'red'}}>
+            <MdDelete/> 
+        </button>
     </td>
    </tr>
   )
