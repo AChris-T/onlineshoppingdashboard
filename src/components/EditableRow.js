@@ -1,4 +1,5 @@
 import React from 'react'
+import {HiOutlineSaveAs} from "react-icons/hi"
 
 const EditableRow = ({editFormData, handleEditFormChange}) => {
   return (
@@ -44,7 +45,7 @@ const EditableRow = ({editFormData, handleEditFormChange}) => {
         /> 
     </td>
     <td>
-        <button type='submit'>Save</button>
+        <button type='submit' className='editicons'><HiOutlineSaveAs/></button>
     </td>
    </tr>
   )
