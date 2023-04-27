@@ -83,7 +83,7 @@ export const Productdata = [
         id:6,
         name:"Nike Space Hippie 04",
         picture:'product_6',
-        price:'$79.85',
+        price:'$59.85',
         avatar:
         [
             <AvatarGroup max={2}>
