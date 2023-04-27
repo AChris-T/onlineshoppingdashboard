@@ -43,7 +43,7 @@ th,td{
     font-size: 15px;
 }
 th{
-    background-color: rgb(18, 42, 179);
+    background-color:#B1B2FF;
     color: #ffffff;
 }
 td{
@@ -55,7 +55,7 @@ td{
     width: 100px;
     height:40px;
     justify-content: center;
-    background-color: rgb(77, 77, 201);
+    background-color: #7579E7;
     color: white;
     font-size: 15px;
     border-radius: 6px;
