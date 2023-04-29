@@ -15,7 +15,7 @@ const Index = () => {
           backgroundColor: 'background.paper',
         }}
         >
-          <Badge badgeContent={4} color="primary">
+          <Badge badgeContent={2} color="primary">
             <BsFillCartFill color="action" className='carticon' />
           </Badge>
         </Box>
